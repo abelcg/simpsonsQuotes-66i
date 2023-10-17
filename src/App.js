@@ -2,6 +2,7 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from './logo.png';
 import Button from "react-bootstrap/button";
+import Quotes from './components/Quotes';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       >
         Get Quotes
       </Button>
+      <Quotes character={character}></Quotes>
     </section>
   );
 }
